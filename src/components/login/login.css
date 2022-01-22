@@ -1,0 +1,36 @@
+.title {
+  margin-top: 30px;
+  font-size: 40px;
+}
+.input {
+  padding: 20px;
+  margin-top: 20px;
+  color: blue;
+  border: 0px;
+  border-bottom: 1px solid blue;
+  font-size: 16px;
+  margin-bottom: 10px;
+  height: 20px;
+  width: 100%;
+
+  transition: border-bottom 0.3s ease;
+}
+.btn {
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: white;
+}
+.link {
+  text-decoration: none;
+  margin-left: 10px;
+  color: white;
+}
+.link:hover {
+  text-decoration: underline;
+}
