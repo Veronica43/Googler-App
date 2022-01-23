@@ -46,7 +46,7 @@ function TodoList() {
 
   return (
     <>
-      <h1>What's the Plan for Today?</h1>
+      <h1>Add your importants notes!</h1>
       <button onClick={() => history.push("/login")} className="button">
         Logout
       </button>

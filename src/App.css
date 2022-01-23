@@ -52,12 +52,13 @@ h1 {
   outline: none;
   width: 320px;
   background: transparent;
-  color: #fff;
+  color: black;
   border: none;
+  font-size: 18px;
 }
 
 .todo-input::placeholder {
-  color: #e2e2e2;
+  color: black;
 }
 
 .todo-button {
@@ -71,7 +72,8 @@ h1 {
     rgba(93, 12, 255, 1) 0%,
     rgba(155, 0, 250, 1) 100%
   );
-  color: #fff;
+  color: black;
+  font-size: 15px;
   text-transform: capitalize;
 }
 
