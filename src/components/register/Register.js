@@ -38,7 +38,7 @@ export const Register = () => {
           className="input"
         />
         <button
-          onClick={() => history.push("/")}
+          onClick={() => history.push("/homepage")}
           className="btn "
           type="submit"
         >
